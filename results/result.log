@@ -1,0 +1,27 @@
+2021-10-15 17:30:35,137 INFO =============================================
+2021-10-15 17:30:35,137 INFO module:AIOPS_LOG_PATTERN_UPDATE, case name:GET_LOG_PATTERN_LIST_WITHOUT_DT, parameter:{}, return:True
+2021-10-15 17:30:35,137 INFO =============================================
+2021-10-15 17:30:35,137 DEBUG {'testplan': 'testplan_test.yaml', 'rerun': None}
+2021-10-15 17:30:35,142 DEBUG <module 'cases.AIOPS_LOG_PATTERN_UPDATE' from '/Users/haozhihui/project/tp_aiops/cases/AIOPS_LOG_PATTERN_UPDATE.py'>
+2021-10-15 17:30:35,142 INFO {'testplan': 'testplan_test.yaml', 'rerun': None}
+2021-10-15 17:30:35,153 DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2021-10-15 17:30:35,478 DEBUG http://127.0.0.1:8080 "POST /api/bi/user/login/ HTTP/1.1" 200 382
+2021-10-15 17:30:35,671 DEBUG http://127.0.0.1:8080 "GET /api/bi/log/patterns/ HTTP/1.1" 200 7681
+2021-10-15 17:30:35,674 INFO =============================================
+2021-10-15 17:30:35,675 INFO module:AIOPS_LOG_PATTERN_UPDATE, case name:GET_LOG_PATTERN_LIST_WITHOUT_DT_CUSTOM_PAGE_200, parameter:{}, return:True
+2021-10-15 17:30:35,675 INFO =============================================
+2021-10-15 17:30:35,675 DEBUG {'testplan': 'testplan_test.yaml', 'rerun': None}
+2021-10-15 17:30:35,675 DEBUG <module 'cases.AIOPS_LOG_PATTERN_UPDATE' from '/Users/haozhihui/project/tp_aiops/cases/AIOPS_LOG_PATTERN_UPDATE.py'>
+2021-10-15 17:30:35,676 INFO {'testplan': 'testplan_test.yaml', 'rerun': None}
+2021-10-15 17:30:35,681 DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2021-10-15 17:30:36,395 DEBUG http://127.0.0.1:8080 "POST /api/bi/user/login/ HTTP/1.1" 200 382
+2021-10-15 17:30:36,630 DEBUG http://127.0.0.1:8080 "GET /api/bi/log/patterns/?limit=200&offset=0 HTTP/1.1" 200 78233
+2021-10-15 17:30:36,641 INFO =============================================
+2021-10-15 17:30:36,642 INFO module:AIOPS_LOG_PATTERN_UPDATE, case name:GET_LOG_PATTERN_LIST_WITHOUT_DT_CUSTOM_PAGE_500, parameter:{}, return:True
+2021-10-15 17:30:36,642 INFO =============================================
+2021-10-15 17:30:36,642 DEBUG {'testplan': 'testplan_test.yaml', 'rerun': None}
+2021-10-15 17:30:36,643 DEBUG <module 'cases.AIOPS_LOG_PATTERN_UPDATE' from '/Users/haozhihui/project/tp_aiops/cases/AIOPS_LOG_PATTERN_UPDATE.py'>
+2021-10-15 17:30:36,643 INFO {'testplan': 'testplan_test.yaml', 'rerun': None}
+2021-10-15 17:30:36,650 DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2021-10-15 17:30:37,246 DEBUG http://127.0.0.1:8080 "POST /api/bi/user/login/ HTTP/1.1" 200 382
+2021-10-15 17:30:37,409 DEBUG http://127.0.0.1:8080 "GET /api/bi/log/patterns/?limit=500&offset=0 HTTP/1.1" 200 93271

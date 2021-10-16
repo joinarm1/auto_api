@@ -1,0 +1,8 @@
+version: "v2"
+scenario:
+  - cases:
+    - {casename: GET_LOG_PATTERN_LIST_WITHOUT_DT}
+    - {casename: GET_LOG_PATTERN_LIST_WITHOUT_DT_CUSTOM_PAGE_200}
+    - {casename: GET_LOG_PATTERN_LIST_WITHOUT_DT_CUSTOM_PAGE_500}
+    module: AIOPS_LOG_PATTERN_UPDATE
+
