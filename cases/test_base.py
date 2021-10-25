@@ -16,10 +16,9 @@ class TestBase(object):
     payload = None
     uri = None
 
-    def __init__(self, endpoint='http://dev.aiops.demolx.com/api/', payload={"username":'lxadmin',"password":'Alx0812'}, **args):
+    def __init__(self, endpoint='http://127.0.0.1:8080/api/', payload={"username":'lxadmin',"password":'xxxxxxxx'}, **args):
         logging.info(args)
         self.args = args
-        # self.clt = RestClient('http://127.0.0.1:8080/api/')
         self.clt = RestClient(endpoint)
         self.request("bi/user/login/", method="POST", payload=payload)
         self.setup()
